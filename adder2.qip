@@ -1,0 +1,15 @@
+<<<<<<< HEAD
+set_global_assignment -name IP_TOOL_NAME "LPM_ADD_SUB"
+set_global_assignment -name IP_TOOL_VERSION "9.0"
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) "adder2.v"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "adder2.bsf"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "adder2_bb.v"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "adder2.inc"]
+=======
+set_global_assignment -name IP_TOOL_NAME "LPM_ADD_SUB"
+set_global_assignment -name IP_TOOL_VERSION "9.0"
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) "adder2.v"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "adder2.bsf"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "adder2_bb.v"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "adder2.inc"]
+>>>>>>> 4fe6703da5f9b2ded3acc8fa622192f9776f557a

@@ -1,0 +1,12 @@
+|control_branch
+branch_opcode[0] => Mux0.IN3
+branch_opcode[1] => Mux0.IN2
+branch_opcode[1] => ctrl~0.DATAA
+zero => Mux0.IN4
+zero => Mux0.IN5
+branch => ctrl~1.OUTPUTSELECT
+branch => ctrl~0.OUTPUTSELECT
+ctrl[0] <= ctrl~1.DB_MAX_OUTPUT_PORT_TYPE
+ctrl[1] <= ctrl~0.DB_MAX_OUTPUT_PORT_TYPE
+
+

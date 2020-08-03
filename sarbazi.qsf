@@ -1,0 +1,165 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2009 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II
+# Version 9.0 Build 132 02/25/2009 SJ Web Edition
+# Date created = 13:06:46  July 09, 2020
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		sarbazi_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Stratix II"
+set_global_assignment -name DEVICE AUTO
+set_global_assignment -name TOP_LEVEL_ENTITY control_branch
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 9.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "13:06:46  JULY 09, 2020"
+set_global_assignment -name LAST_QUARTUS_VERSION 9.0
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE FASTEST
+set_global_assignment -name LL_ROOT_REGION ON -entity sarbazi -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -entity sarbazi -section_id "Root Region"
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name LL_ROOT_REGION ON -entity play -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -entity play -section_id "Root Region"
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE ALU.vwf
+set_global_assignment -name EDA_SIMULATION_TOOL "<None>"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT NONE -section_id eda_simulation
+set_global_assignment -name MISC_FILE "C:/Users/Asus/Desktop/Semi-Mips/sarbazi.dpf"
+set_global_assignment -name VERILOG_FILE control_branch.v
+set_global_assignment -name AHDL_FILE pcMux.tdf
+set_global_assignment -name VERILOG_FILE RAM.v
+set_global_assignment -name BDF_FILE EXMEM.bdf
+set_global_assignment -name BDF_FILE memwb.bdf
+set_global_assignment -name AHDL_FILE MegaWizardSymbols/reg_ex.tdf
+set_global_assignment -name MIF_FILE sarbazi.mif
+set_global_assignment -name BDF_FILE "sarbazi-register.bdf"
+set_global_assignment -name QIP_FILE lpm_mux0.qip
+set_global_assignment -name IP_TOOL_NAME LPM_MUX -qip lpm_mux0.qip
+set_global_assignment -name IP_TOOL_VERSION 9.0 -qip lpm_mux0.qip
+set_global_assignment -name VERILOG_FILE lpm_mux0.v -qip lpm_mux0.qip
+set_global_assignment -name MISC_FILE lpm_mux0.bsf -qip lpm_mux0.qip
+set_global_assignment -name MISC_FILE lpm_mux0_bb.v -qip lpm_mux0.qip
+set_global_assignment -name MISC_FILE lpm_mux0.inc -qip lpm_mux0.qip
+set_global_assignment -name QIP_FILE lpm_decode0.qip
+set_global_assignment -name IP_TOOL_NAME LPM_DECODE -qip lpm_decode0.qip
+set_global_assignment -name IP_TOOL_VERSION 9.0 -qip lpm_decode0.qip
+set_global_assignment -name VERILOG_FILE lpm_decode0.v -qip lpm_decode0.qip
+set_global_assignment -name MISC_FILE lpm_decode0.bsf -qip lpm_decode0.qip
+set_global_assignment -name MISC_FILE lpm_decode0_bb.v -qip lpm_decode0.qip
+set_global_assignment -name MISC_FILE lpm_decode0.inc -qip lpm_decode0.qip
+set_global_assignment -name QIP_FILE filfil.qip
+set_global_assignment -name IP_TOOL_NAME LPM_FF -qip filfil.qip
+set_global_assignment -name IP_TOOL_VERSION 9.0 -qip filfil.qip
+set_global_assignment -name VERILOG_FILE filfil.v -qip filfil.qip
+set_global_assignment -name MISC_FILE filfil.bsf -qip filfil.qip
+set_global_assignment -name MISC_FILE filfil_bb.v -qip filfil.qip
+set_global_assignment -name MISC_FILE filfil.inc -qip filfil.qip
+set_global_assignment -name VERILOG_FILE ALU.v
+set_global_assignment -name QIP_FILE adder.qip
+set_global_assignment -name IP_TOOL_NAME LPM_ADD_SUB -qip adder.qip
+set_global_assignment -name IP_TOOL_VERSION 9.0 -qip adder.qip
+set_global_assignment -name VERILOG_FILE adder.v -qip adder.qip
+set_global_assignment -name MISC_FILE adder.bsf -qip adder.qip
+set_global_assignment -name MISC_FILE adder_bb.v -qip adder.qip
+set_global_assignment -name MISC_FILE adder.inc -qip adder.qip
+set_global_assignment -name BDF_FILE instFetchLEVEL.bdf
+set_global_assignment -name BDF_FILE instDecodeLEVEL.bdf
+set_global_assignment -name BDF_FILE controller.bdf
+set_global_assignment -name QIP_FILE littleMUX.qip
+set_global_assignment -name IP_TOOL_NAME LPM_MUX -qip littleMUX.qip
+set_global_assignment -name IP_TOOL_VERSION 9.0 -qip littleMUX.qip
+set_global_assignment -name VERILOG_FILE littleMUX.v -qip littleMUX.qip
+set_global_assignment -name MISC_FILE littleMUX.bsf -qip littleMUX.qip
+set_global_assignment -name MISC_FILE littleMUX_bb.v -qip littleMUX.qip
+set_global_assignment -name MISC_FILE littleMUX.inc -qip littleMUX.qip
+set_global_assignment -name BDF_FILE MemoryLevel.bdf
+set_global_assignment -name BDF_FILE ExecuteLevel.bdf
+set_global_assignment -name QIP_FILE comparator.qip
+set_global_assignment -name IP_TOOL_NAME LPM_COMPARE -qip comparator.qip
+set_global_assignment -name IP_TOOL_VERSION 9.0 -qip comparator.qip
+set_global_assignment -name MISC_FILE comparator.tdf -qip comparator.qip
+set_global_assignment -name MISC_FILE comparator.inc -qip comparator.qip
+set_global_assignment -name QIP_FILE lpm_compare0.qip
+set_global_assignment -name IP_TOOL_NAME LPM_COMPARE -qip lpm_compare0.qip
+set_global_assignment -name IP_TOOL_VERSION 9.0 -qip lpm_compare0.qip
+set_global_assignment -name MISC_FILE lpm_compare0.tdf -qip lpm_compare0.qip
+set_global_assignment -name MISC_FILE lpm_compare0.bsf -qip lpm_compare0.qip
+set_global_assignment -name MISC_FILE lpm_compare0.inc -qip lpm_compare0.qip
+set_global_assignment -name QIP_FILE lpm_compare1.qip
+set_global_assignment -name IP_TOOL_NAME LPM_COMPARE -qip lpm_compare1.qip
+set_global_assignment -name IP_TOOL_VERSION 9.0 -qip lpm_compare1.qip
+set_global_assignment -name VHDL_FILE lpm_compare1.vhd -qip lpm_compare1.qip
+set_global_assignment -name MISC_FILE lpm_compare1.bsf -qip lpm_compare1.qip
+set_global_assignment -name MISC_FILE lpm_compare1.inc -qip lpm_compare1.qip
+set_global_assignment -name QIP_FILE MegaWizardSymbols/reg.qip
+set_global_assignment -name IP_TOOL_NAME LPM_FF -qip MegaWizardSymbols/reg.qip
+set_global_assignment -name IP_TOOL_VERSION 9.0 -qip MegaWizardSymbols/reg.qip
+set_global_assignment -name VHDL_FILE MegaWizardSymbols/reg.vhd -qip MegaWizardSymbols/reg.qip
+set_global_assignment -name MISC_FILE MegaWizardSymbols/reg.bsf -qip MegaWizardSymbols/reg.qip
+set_global_assignment -name MISC_FILE MegaWizardSymbols/reg.inc -qip MegaWizardSymbols/reg.qip
+set_global_assignment -name BDF_FILE IDEX.bdf
+set_global_assignment -name QIP_FILE MegaWizardSymbols/reg_wb.qip
+set_global_assignment -name IP_TOOL_NAME LPM_FF -qip MegaWizardSymbols/reg_wb.qip
+set_global_assignment -name IP_TOOL_VERSION 9.0 -qip MegaWizardSymbols/reg_wb.qip
+set_global_assignment -name VHDL_FILE MegaWizardSymbols/reg_wb.vhd -qip MegaWizardSymbols/reg_wb.qip
+set_global_assignment -name MISC_FILE MegaWizardSymbols/reg_wb.bsf -qip MegaWizardSymbols/reg_wb.qip
+set_global_assignment -name MISC_FILE MegaWizardSymbols/reg_wb.inc -qip MegaWizardSymbols/reg_wb.qip
+set_global_assignment -name BDF_FILE IFID.bdf
+set_global_assignment -name QIP_FILE reg_memory.qip
+set_global_assignment -name IP_TOOL_NAME LPM_FF -qip reg_memory.qip
+set_global_assignment -name IP_TOOL_VERSION 9.0 -qip reg_memory.qip
+set_global_assignment -name VHDL_FILE reg_memory.vhd -qip reg_memory.qip
+set_global_assignment -name MISC_FILE reg_memory.bsf -qip reg_memory.qip
+set_global_assignment -name MISC_FILE reg_memory.inc -qip reg_memory.qip
+set_global_assignment -name BDF_FILE BranchAddress.bdf
+set_global_assignment -name BDF_FILE signExtender.bdf
+set_global_assignment -name QIP_FILE pcMux.qip
+set_global_assignment -name IP_TOOL_NAME LPM_MUX -qip pcMux.qip
+set_global_assignment -name IP_TOOL_VERSION 9.0 -qip pcMux.qip
+set_global_assignment -name MISC_FILE pcMux.tdf -qip pcMux.qip
+set_global_assignment -name MISC_FILE pcMux.bsf -qip pcMux.qip
+set_global_assignment -name MISC_FILE pcMux.inc -qip pcMux.qip
+set_global_assignment -name QIP_FILE MegaWizardSymbols/ROM.qip
+set_global_assignment -name IP_TOOL_NAME "ROM: 1-PORT" -qip MegaWizardSymbols/ROM.qip
+set_global_assignment -name IP_TOOL_VERSION 9.0 -qip MegaWizardSymbols/ROM.qip
+set_global_assignment -name VERILOG_FILE MegaWizardSymbols/ROM.v -qip MegaWizardSymbols/ROM.qip
+set_global_assignment -name MISC_FILE MegaWizardSymbols/ROM.bsf -qip MegaWizardSymbols/ROM.qip
+set_global_assignment -name MISC_FILE MegaWizardSymbols/ROM_bb.v -qip MegaWizardSymbols/ROM.qip
+set_global_assignment -name MISC_FILE MegaWizardSymbols/ROM.inc -qip MegaWizardSymbols/ROM.qip
+set_global_assignment -name VERILOG_FILE adder2.v
+set_global_assignment -name BDF_FILE "sarbazi-main.bdf"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
