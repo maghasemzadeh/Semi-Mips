@@ -118,19 +118,19 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 200 96 368 112)
-	(text "INPUT" (rect 133 0 161 9)(font "Arial" (font_size 6)))
-	(text "mux_in[4..0]" (rect 5 0 66 10)(font "Arial" ))
-	(pt 168 8)
+	(rect 176 200 360 216)
+	(text "INPUT" (rect 149 0 177 9)(font "Arial" (font_size 6)))
+	(text "destinationReg[4..0]" (rect 5 0 104 10)(font "Arial" ))
+	(pt 184 8)
 	(drawing
-		(line (pt 92 12)(pt 117 12)(line_width 1))
-		(line (pt 92 4)(pt 117 4)(line_width 1))
-		(line (pt 121 8)(pt 168 8)(line_width 1))
-		(line (pt 92 12)(pt 92 4)(line_width 1))
-		(line (pt 117 4)(pt 121 8)(line_width 1))
-		(line (pt 117 12)(pt 121 8)(line_width 1))
+		(line (pt 108 12)(pt 133 12)(line_width 1))
+		(line (pt 108 4)(pt 133 4)(line_width 1))
+		(line (pt 137 8)(pt 184 8)(line_width 1))
+		(line (pt 108 12)(pt 108 4)(line_width 1))
+		(line (pt 133 4)(pt 137 8)(line_width 1))
+		(line (pt 133 12)(pt 137 8)(line_width 1))
 	)
-	(text "VCC" (rect 136 7 156 16)(font "Arial" (font_size 6)))
+	(text "VCC" (rect 152 7 172 16)(font "Arial" (font_size 6)))
 )
 (pin
 	(output)
@@ -198,9 +198,9 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 848 96 1024 112)
+	(rect 1000 216 1205 232)
 	(text "OUTPUT" (rect 1 0 39 9)(font "Arial" (font_size 6)))
-	(text "mux_out[4..0]" (rect 90 0 158 10)(font "Arial" ))
+	(text "destinationReg_o[4..0]" (rect 90 0 200 10)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8)(line_width 1))
@@ -410,9 +410,9 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 504 88 648 168)
+	(rect 704 176 848 256)
 	(text "reg5" (rect 56 1 85 16)(font "Arial" (font_size 10)))
-	(text "inst4" (rect 8 66 31 76)(font "Arial" ))
+	(text "inst6" (rect 8 66 31 76)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -612,8 +612,18 @@ applicable agreement for further details.
 	(pt 440 8)
 )
 (connector
-	(pt 456 136)
-	(pt 504 136)
+	(pt 704 224)
+	(pt 456 224)
+)
+(connector
+	(pt 704 208)
+	(pt 360 208)
+	(bus)
+)
+(connector
+	(pt 848 224)
+	(pt 1000 224)
+	(bus)
 )
 (connector
 	(pt 456 -192)
@@ -621,27 +631,7 @@ applicable agreement for further details.
 )
 (connector
 	(pt 456 -8)
-	(pt 456 136)
-)
-(connector
-	(pt 504 120)
-	(pt 368 120)
-	(bus)
-)
-(connector
-	(pt 368 120)
-	(pt 368 104)
-	(bus)
-)
-(connector
-	(pt 648 136)
-	(pt 848 136)
-	(bus)
-)
-(connector
-	(pt 848 136)
-	(pt 848 104)
-	(bus)
+	(pt 456 224)
 )
 (junction (pt 456 -472))
 (junction (pt 432 -96))

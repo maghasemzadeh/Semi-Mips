@@ -1,5 +1,5 @@
 Flow report for sarbazi
-Mon Aug 03 20:48:25 2020
+Tue Aug 04 19:25:56 2020
 Quartus II Version 9.0 Build 132 02/25/2009 SJ Web Edition
 
 
@@ -38,24 +38,22 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------+
 ; Flow Summary                                                            ;
 +-------------------------------+-----------------------------------------+
-; Flow Status                   ; Successful - Mon Aug 03 20:48:25 2020   ;
+; Flow Status                   ; Flow Failed - Tue Aug 04 19:25:56 2020  ;
 ; Quartus II Version            ; 9.0 Build 132 02/25/2009 SJ Web Edition ;
 ; Revision Name                 ; sarbazi                                 ;
-; Top-level Entity Name         ; control_branch                          ;
+; Top-level Entity Name         ; sarbazi-main                            ;
 ; Family                        ; Stratix II                              ;
-; Met timing requirements       ; Yes                                     ;
-; Logic utilization             ; < 1 %                                   ;
-;     Combinational ALUTs       ; 2 / 12,480 ( < 1 % )                    ;
-;     Dedicated logic registers ; 0 / 12,480 ( 0 % )                      ;
-; Total registers               ; 0                                       ;
-; Total pins                    ; 6 / 343 ( 2 % )                         ;
-; Total virtual pins            ; 0                                       ;
-; Total block memory bits       ; 0 / 419,328 ( 0 % )                     ;
-; DSP block 9-bit elements      ; 0 / 96 ( 0 % )                          ;
-; Total PLLs                    ; 0 / 6 ( 0 % )                           ;
-; Total DLLs                    ; 0 / 2 ( 0 % )                           ;
-; Device                        ; EP2S15F484C3                            ;
-; Timing Models                 ; Final                                   ;
+; Met timing requirements       ; N/A                                     ;
+; Logic utilization             ; N/A until Partition Merge               ;
+;     Combinational ALUTs       ; N/A until Partition Merge               ;
+;     Dedicated logic registers ; N/A until Partition Merge               ;
+; Total registers               ; N/A until Partition Merge               ;
+; Total pins                    ; N/A until Partition Merge               ;
+; Total virtual pins            ; N/A until Partition Merge               ;
+; Total block memory bits       ; N/A until Partition Merge               ;
+; DSP block 9-bit elements      ; N/A until Partition Merge               ;
+; Total PLLs                    ; N/A until Partition Merge               ;
+; Total DLLs                    ; N/A until Partition Merge               ;
 +-------------------------------+-----------------------------------------+
 
 
@@ -64,121 +62,122 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 08/03/2020 20:48:04 ;
+; Start date & time ; 08/04/2020 19:25:53 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; sarbazi             ;
 +-------------------+---------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                    ;
-+-------------------------------------+---------------------------------------------+---------------+----------------+----------------+
-; Assignment Name                     ; Value                                       ; Default Value ; Entity Name    ; Section Id     ;
-+-------------------------------------+---------------------------------------------+---------------+----------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 66692969400109.159647148310156              ; --            ; --             ; --             ;
-; EDA_OUTPUT_DATA_FORMAT              ; None                                        ; --            ; --             ; eda_simulation ;
-; EDA_TIME_SCALE                      ; 1 ps                                        ; --            ; --             ; eda_simulation ;
-; IP_TOOL_NAME                        ; LPM_MUX                                     ; --            ; --             ; --             ;
-; IP_TOOL_NAME                        ; LPM_DECODE                                  ; --            ; --             ; --             ;
-; IP_TOOL_NAME                        ; LPM_FF                                      ; --            ; --             ; --             ;
-; IP_TOOL_NAME                        ; LPM_ADD_SUB                                 ; --            ; --             ; --             ;
-; IP_TOOL_NAME                        ; LPM_MUX                                     ; --            ; --             ; --             ;
-; IP_TOOL_NAME                        ; LPM_COMPARE                                 ; --            ; --             ; --             ;
-; IP_TOOL_NAME                        ; LPM_COMPARE                                 ; --            ; --             ; --             ;
-; IP_TOOL_NAME                        ; LPM_COMPARE                                 ; --            ; --             ; --             ;
-; IP_TOOL_NAME                        ; LPM_FF                                      ; --            ; --             ; --             ;
-; IP_TOOL_NAME                        ; LPM_FF                                      ; --            ; --             ; --             ;
-; IP_TOOL_NAME                        ; LPM_FF                                      ; --            ; --             ; --             ;
-; IP_TOOL_NAME                        ; LPM_MUX                                     ; --            ; --             ; --             ;
-; IP_TOOL_NAME                        ; ROM: 1-PORT                                 ; --            ; --             ; --             ;
-; IP_TOOL_VERSION                     ; 9.0                                         ; --            ; --             ; --             ;
-; IP_TOOL_VERSION                     ; 9.0                                         ; --            ; --             ; --             ;
-; IP_TOOL_VERSION                     ; 9.0                                         ; --            ; --             ; --             ;
-; IP_TOOL_VERSION                     ; 9.0                                         ; --            ; --             ; --             ;
-; IP_TOOL_VERSION                     ; 9.0                                         ; --            ; --             ; --             ;
-; IP_TOOL_VERSION                     ; 9.0                                         ; --            ; --             ; --             ;
-; IP_TOOL_VERSION                     ; 9.0                                         ; --            ; --             ; --             ;
-; IP_TOOL_VERSION                     ; 9.0                                         ; --            ; --             ; --             ;
-; IP_TOOL_VERSION                     ; 9.0                                         ; --            ; --             ; --             ;
-; IP_TOOL_VERSION                     ; 9.0                                         ; --            ; --             ; --             ;
-; IP_TOOL_VERSION                     ; 9.0                                         ; --            ; --             ; --             ;
-; IP_TOOL_VERSION                     ; 9.0                                         ; --            ; --             ; --             ;
-; IP_TOOL_VERSION                     ; 9.0                                         ; --            ; --             ; --             ;
-; MISC_FILE                           ; C:/Users/Asus/Desktop/Semi-Mips/sarbazi.dpf ; --            ; --             ; --             ;
-; MISC_FILE                           ; lpm_mux0.bsf                                ; --            ; --             ; --             ;
-; MISC_FILE                           ; lpm_mux0_bb.v                               ; --            ; --             ; --             ;
-; MISC_FILE                           ; lpm_mux0.inc                                ; --            ; --             ; --             ;
-; MISC_FILE                           ; lpm_decode0.bsf                             ; --            ; --             ; --             ;
-; MISC_FILE                           ; lpm_decode0_bb.v                            ; --            ; --             ; --             ;
-; MISC_FILE                           ; lpm_decode0.inc                             ; --            ; --             ; --             ;
-; MISC_FILE                           ; filfil.bsf                                  ; --            ; --             ; --             ;
-; MISC_FILE                           ; filfil_bb.v                                 ; --            ; --             ; --             ;
-; MISC_FILE                           ; filfil.inc                                  ; --            ; --             ; --             ;
-; MISC_FILE                           ; adder.bsf                                   ; --            ; --             ; --             ;
-; MISC_FILE                           ; adder_bb.v                                  ; --            ; --             ; --             ;
-; MISC_FILE                           ; adder.inc                                   ; --            ; --             ; --             ;
-; MISC_FILE                           ; littleMUX.bsf                               ; --            ; --             ; --             ;
-; MISC_FILE                           ; littleMUX_bb.v                              ; --            ; --             ; --             ;
-; MISC_FILE                           ; littleMUX.inc                               ; --            ; --             ; --             ;
-; MISC_FILE                           ; comparator.tdf                              ; --            ; --             ; --             ;
-; MISC_FILE                           ; comparator.inc                              ; --            ; --             ; --             ;
-; MISC_FILE                           ; lpm_compare0.tdf                            ; --            ; --             ; --             ;
-; MISC_FILE                           ; lpm_compare0.bsf                            ; --            ; --             ; --             ;
-; MISC_FILE                           ; lpm_compare0.inc                            ; --            ; --             ; --             ;
-; MISC_FILE                           ; lpm_compare1.bsf                            ; --            ; --             ; --             ;
-; MISC_FILE                           ; lpm_compare1.inc                            ; --            ; --             ; --             ;
-; MISC_FILE                           ; MegaWizardSymbols/reg.bsf                   ; --            ; --             ; --             ;
-; MISC_FILE                           ; MegaWizardSymbols/reg.inc                   ; --            ; --             ; --             ;
-; MISC_FILE                           ; MegaWizardSymbols/reg_wb.bsf                ; --            ; --             ; --             ;
-; MISC_FILE                           ; MegaWizardSymbols/reg_wb.inc                ; --            ; --             ; --             ;
-; MISC_FILE                           ; reg_memory.bsf                              ; --            ; --             ; --             ;
-; MISC_FILE                           ; reg_memory.inc                              ; --            ; --             ; --             ;
-; MISC_FILE                           ; pcMux.tdf                                   ; --            ; --             ; --             ;
-; MISC_FILE                           ; pcMux.bsf                                   ; --            ; --             ; --             ;
-; MISC_FILE                           ; pcMux.inc                                   ; --            ; --             ; --             ;
-; MISC_FILE                           ; MegaWizardSymbols/ROM.bsf                   ; --            ; --             ; --             ;
-; MISC_FILE                           ; MegaWizardSymbols/ROM_bb.v                  ; --            ; --             ; --             ;
-; MISC_FILE                           ; MegaWizardSymbols/ROM.inc                   ; --            ; --             ; --             ;
-; PARTITION_COLOR                     ; 16764057                                    ; --            ; control_branch ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                       ; --            ; control_branch ; Top            ;
-; PARTITION_NETLIST_TYPE              ; SOURCE                                      ; --            ; control_branch ; Top            ;
-; TOP_LEVEL_ENTITY                    ; control_branch                              ; sarbazi       ; --             ; --             ;
-; USE_GENERATED_PHYSICAL_CONSTRAINTS  ; Off                                         ; --            ; --             ; eda_blast_fpga ;
-+-------------------------------------+---------------------------------------------+---------------+----------------+----------------+
++-----------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                  ;
++-------------------------------------+---------------------------------------------+---------------+--------------+----------------+
+; Assignment Name                     ; Value                                       ; Default Value ; Entity Name  ; Section Id     ;
++-------------------------------------+---------------------------------------------+---------------+--------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 71072259331686.159655295301048              ; --            ; --           ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; None                                        ; --            ; --           ; eda_simulation ;
+; EDA_TIME_SCALE                      ; 1 ps                                        ; --            ; --           ; eda_simulation ;
+; IP_TOOL_NAME                        ; LPM_MUX                                     ; --            ; --           ; --             ;
+; IP_TOOL_NAME                        ; LPM_DECODE                                  ; --            ; --           ; --             ;
+; IP_TOOL_NAME                        ; LPM_FF                                      ; --            ; --           ; --             ;
+; IP_TOOL_NAME                        ; LPM_ADD_SUB                                 ; --            ; --           ; --             ;
+; IP_TOOL_NAME                        ; LPM_MUX                                     ; --            ; --           ; --             ;
+; IP_TOOL_NAME                        ; LPM_COMPARE                                 ; --            ; --           ; --             ;
+; IP_TOOL_NAME                        ; LPM_COMPARE                                 ; --            ; --           ; --             ;
+; IP_TOOL_NAME                        ; LPM_COMPARE                                 ; --            ; --           ; --             ;
+; IP_TOOL_NAME                        ; LPM_FF                                      ; --            ; --           ; --             ;
+; IP_TOOL_NAME                        ; LPM_FF                                      ; --            ; --           ; --             ;
+; IP_TOOL_NAME                        ; LPM_FF                                      ; --            ; --           ; --             ;
+; IP_TOOL_NAME                        ; LPM_MUX                                     ; --            ; --           ; --             ;
+; IP_TOOL_NAME                        ; ROM: 1-PORT                                 ; --            ; --           ; --             ;
+; IP_TOOL_NAME                        ; LPM_FF                                      ; --            ; --           ; --             ;
+; IP_TOOL_NAME                        ; LPM_FF                                      ; --            ; --           ; --             ;
+; IP_TOOL_VERSION                     ; 9.0                                         ; --            ; --           ; --             ;
+; IP_TOOL_VERSION                     ; 9.0                                         ; --            ; --           ; --             ;
+; IP_TOOL_VERSION                     ; 9.0                                         ; --            ; --           ; --             ;
+; IP_TOOL_VERSION                     ; 9.0                                         ; --            ; --           ; --             ;
+; IP_TOOL_VERSION                     ; 9.0                                         ; --            ; --           ; --             ;
+; IP_TOOL_VERSION                     ; 9.0                                         ; --            ; --           ; --             ;
+; IP_TOOL_VERSION                     ; 9.0                                         ; --            ; --           ; --             ;
+; IP_TOOL_VERSION                     ; 9.0                                         ; --            ; --           ; --             ;
+; IP_TOOL_VERSION                     ; 9.0                                         ; --            ; --           ; --             ;
+; IP_TOOL_VERSION                     ; 9.0                                         ; --            ; --           ; --             ;
+; IP_TOOL_VERSION                     ; 9.0                                         ; --            ; --           ; --             ;
+; IP_TOOL_VERSION                     ; 9.0                                         ; --            ; --           ; --             ;
+; IP_TOOL_VERSION                     ; 9.0                                         ; --            ; --           ; --             ;
+; IP_TOOL_VERSION                     ; 9.0                                         ; --            ; --           ; --             ;
+; IP_TOOL_VERSION                     ; 9.0                                         ; --            ; --           ; --             ;
+; MISC_FILE                           ; C:/Users/Asus/Desktop/Semi-Mips/sarbazi.dpf ; --            ; --           ; --             ;
+; MISC_FILE                           ; lpm_mux0.bsf                                ; --            ; --           ; --             ;
+; MISC_FILE                           ; lpm_mux0_bb.v                               ; --            ; --           ; --             ;
+; MISC_FILE                           ; lpm_mux0.inc                                ; --            ; --           ; --             ;
+; MISC_FILE                           ; lpm_decode0.bsf                             ; --            ; --           ; --             ;
+; MISC_FILE                           ; lpm_decode0_bb.v                            ; --            ; --           ; --             ;
+; MISC_FILE                           ; lpm_decode0.inc                             ; --            ; --           ; --             ;
+; MISC_FILE                           ; filfil.bsf                                  ; --            ; --           ; --             ;
+; MISC_FILE                           ; filfil_bb.v                                 ; --            ; --           ; --             ;
+; MISC_FILE                           ; filfil.inc                                  ; --            ; --           ; --             ;
+; MISC_FILE                           ; adder.bsf                                   ; --            ; --           ; --             ;
+; MISC_FILE                           ; adder_bb.v                                  ; --            ; --           ; --             ;
+; MISC_FILE                           ; adder.inc                                   ; --            ; --           ; --             ;
+; MISC_FILE                           ; littleMUX.bsf                               ; --            ; --           ; --             ;
+; MISC_FILE                           ; littleMUX_bb.v                              ; --            ; --           ; --             ;
+; MISC_FILE                           ; littleMUX.inc                               ; --            ; --           ; --             ;
+; MISC_FILE                           ; comparator.tdf                              ; --            ; --           ; --             ;
+; MISC_FILE                           ; comparator.inc                              ; --            ; --           ; --             ;
+; MISC_FILE                           ; lpm_compare0.tdf                            ; --            ; --           ; --             ;
+; MISC_FILE                           ; lpm_compare0.bsf                            ; --            ; --           ; --             ;
+; MISC_FILE                           ; lpm_compare0.inc                            ; --            ; --           ; --             ;
+; MISC_FILE                           ; lpm_compare1.bsf                            ; --            ; --           ; --             ;
+; MISC_FILE                           ; lpm_compare1.inc                            ; --            ; --           ; --             ;
+; MISC_FILE                           ; MegaWizardSymbols/reg.bsf                   ; --            ; --           ; --             ;
+; MISC_FILE                           ; MegaWizardSymbols/reg.inc                   ; --            ; --           ; --             ;
+; MISC_FILE                           ; MegaWizardSymbols/reg_wb.bsf                ; --            ; --           ; --             ;
+; MISC_FILE                           ; MegaWizardSymbols/reg_wb.inc                ; --            ; --           ; --             ;
+; MISC_FILE                           ; reg_memory.bsf                              ; --            ; --           ; --             ;
+; MISC_FILE                           ; reg_memory.inc                              ; --            ; --           ; --             ;
+; MISC_FILE                           ; pcMux.tdf                                   ; --            ; --           ; --             ;
+; MISC_FILE                           ; pcMux.bsf                                   ; --            ; --           ; --             ;
+; MISC_FILE                           ; pcMux.inc                                   ; --            ; --           ; --             ;
+; MISC_FILE                           ; MegaWizardSymbols/ROM.bsf                   ; --            ; --           ; --             ;
+; MISC_FILE                           ; MegaWizardSymbols/ROM_bb.v                  ; --            ; --           ; --             ;
+; MISC_FILE                           ; MegaWizardSymbols/ROM.inc                   ; --            ; --           ; --             ;
+; MISC_FILE                           ; reg2.tdf                                    ; --            ; --           ; --             ;
+; MISC_FILE                           ; reg2.bsf                                    ; --            ; --           ; --             ;
+; MISC_FILE                           ; reg2.inc                                    ; --            ; --           ; --             ;
+; MISC_FILE                           ; reg14.tdf                                   ; --            ; --           ; --             ;
+; MISC_FILE                           ; reg14.bsf                                   ; --            ; --           ; --             ;
+; MISC_FILE                           ; reg14.inc                                   ; --            ; --           ; --             ;
+; PARTITION_COLOR                     ; 16764057                                    ; --            ; sarbazi-main ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                       ; --            ; sarbazi-main ; Top            ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                                      ; --            ; sarbazi-main ; Top            ;
+; TOP_LEVEL_ENTITY                    ; sarbazi-main                                ; sarbazi       ; --           ; --             ;
+; USE_GENERATED_PHYSICAL_CONSTRAINTS  ; Off                                         ; --            ; --           ; eda_blast_fpga ;
++-------------------------------------+---------------------------------------------+---------------+--------------+----------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                           ;
-+-------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+-------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis    ; 00:00:04     ; 1.0                     ; 251 MB              ; 00:00:03                           ;
-; Fitter                  ; 00:00:07     ; 1.0                     ; 295 MB              ; 00:00:07                           ;
-; Assembler               ; 00:00:05     ; 1.0                     ; 252 MB              ; 00:00:04                           ;
-; Classic Timing Analyzer ; 00:00:01     ; 1.0                     ; 184 MB              ; 00:00:00                           ;
-; Total                   ; 00:00:17     ; --                      ; --                  ; 00:00:14                           ;
-+-------------------------+--------------+-------------------------+---------------------+------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:03     ; 1.0                     ; 0 MB                ; 00:00:03                           ;
+; Total                ; 00:00:03     ; --                      ; --                  ; 00:00:03                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+------------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                          ;
-+-------------------------+------------------+---------------+------------+----------------+
-; Module Name             ; Machine Hostname ; OS Name       ; OS Version ; Processor type ;
-+-------------------------+------------------+---------------+------------+----------------+
-; Analysis & Synthesis    ; DESKTOP-6RNIMGF  ; Windows Vista ; 6.2        ; x86_64         ;
-; Fitter                  ; DESKTOP-6RNIMGF  ; Windows Vista ; 6.2        ; x86_64         ;
-; Assembler               ; DESKTOP-6RNIMGF  ; Windows Vista ; 6.2        ; x86_64         ;
-; Classic Timing Analyzer ; DESKTOP-6RNIMGF  ; Windows Vista ; 6.2        ; x86_64         ;
-+-------------------------+------------------+---------------+------------+----------------+
++---------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                       ;
++----------------------+------------------+---------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name       ; OS Version ; Processor type ;
++----------------------+------------------+---------------+------------+----------------+
+; Analysis & Synthesis ; amin-pc          ; Windows Vista ; 6.1        ; x86_64         ;
++----------------------+------------------+---------------+------------+----------------+
 
 
 ------------
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off sarbazi -c sarbazi
-quartus_fit --read_settings_files=off --write_settings_files=off sarbazi -c sarbazi
-quartus_asm --read_settings_files=off --write_settings_files=off sarbazi -c sarbazi
-quartus_tan --read_settings_files=off --write_settings_files=off sarbazi -c sarbazi --timing_analysis_only
 
 
 
