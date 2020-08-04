@@ -2,14 +2,34 @@
 Timing Analyzer Summary
 --------------------------------------------------------------------------------------
 
-Type           : Worst-case tpd
+Type           : Worst-case tsu
 Slack          : N/A
 Required Time  : None
-Actual Time    : 9.492 ns
-From           : branch
-To             : ctrl[1]
+Actual Time    : 3.568 ns
+From           : pc_in[10]
+To             : reg14:inst3|lpm_ff:lpm_ff_component|dffs[10]
 From Clock     : --
+To Clock       : clock
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 7.167 ns
+From           : reg:inst1|lpm_ff:lpm_ff_component|dffs[10]
+To             : ID[10]
+From Clock     : clock
 To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 0.332 ns
+From           : ID_in[4]
+To             : reg:inst1|lpm_ff:lpm_ff_component|dffs[4]
+From Clock     : --
+To Clock       : clock
 Failed Paths   : 0
 
 Type           : Total number of failed paths
