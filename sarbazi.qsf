@@ -54,66 +54,6 @@ set_global_assignment -name EDA_SIMULATION_TOOL "<None>"
 set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
 set_global_assignment -name EDA_OUTPUT_DATA_FORMAT NONE -section_id eda_simulation
 set_global_assignment -name MISC_FILE "C:/Users/Asus/Desktop/Semi-Mips/sarbazi.dpf"
-set_global_assignment -name IP_TOOL_NAME LPM_MUX -qip lpm_mux0.qip
-set_global_assignment -name IP_TOOL_VERSION 9.0 -qip lpm_mux0.qip
-set_global_assignment -name MISC_FILE lpm_mux0.bsf -qip lpm_mux0.qip
-set_global_assignment -name MISC_FILE lpm_mux0_bb.v -qip lpm_mux0.qip
-set_global_assignment -name MISC_FILE lpm_mux0.inc -qip lpm_mux0.qip
-set_global_assignment -name IP_TOOL_NAME LPM_DECODE -qip lpm_decode0.qip
-set_global_assignment -name IP_TOOL_VERSION 9.0 -qip lpm_decode0.qip
-set_global_assignment -name MISC_FILE lpm_decode0.bsf -qip lpm_decode0.qip
-set_global_assignment -name MISC_FILE lpm_decode0_bb.v -qip lpm_decode0.qip
-set_global_assignment -name MISC_FILE lpm_decode0.inc -qip lpm_decode0.qip
-set_global_assignment -name IP_TOOL_NAME LPM_FF -qip filfil.qip
-set_global_assignment -name IP_TOOL_VERSION 9.0 -qip filfil.qip
-set_global_assignment -name MISC_FILE filfil.bsf -qip filfil.qip
-set_global_assignment -name MISC_FILE filfil_bb.v -qip filfil.qip
-set_global_assignment -name MISC_FILE filfil.inc -qip filfil.qip
-set_global_assignment -name IP_TOOL_NAME LPM_ADD_SUB -qip adder.qip
-set_global_assignment -name IP_TOOL_VERSION 9.0 -qip adder.qip
-set_global_assignment -name MISC_FILE adder.bsf -qip adder.qip
-set_global_assignment -name MISC_FILE adder_bb.v -qip adder.qip
-set_global_assignment -name MISC_FILE adder.inc -qip adder.qip
-set_global_assignment -name IP_TOOL_NAME LPM_MUX -qip littleMUX.qip
-set_global_assignment -name IP_TOOL_VERSION 9.0 -qip littleMUX.qip
-set_global_assignment -name MISC_FILE littleMUX.bsf -qip littleMUX.qip
-set_global_assignment -name MISC_FILE littleMUX_bb.v -qip littleMUX.qip
-set_global_assignment -name MISC_FILE littleMUX.inc -qip littleMUX.qip
-set_global_assignment -name IP_TOOL_NAME LPM_COMPARE -qip comparator.qip
-set_global_assignment -name IP_TOOL_VERSION 9.0 -qip comparator.qip
-set_global_assignment -name MISC_FILE comparator.tdf -qip comparator.qip
-set_global_assignment -name MISC_FILE comparator.inc -qip comparator.qip
-set_global_assignment -name IP_TOOL_NAME LPM_COMPARE -qip lpm_compare0.qip
-set_global_assignment -name IP_TOOL_VERSION 9.0 -qip lpm_compare0.qip
-set_global_assignment -name MISC_FILE lpm_compare0.tdf -qip lpm_compare0.qip
-set_global_assignment -name MISC_FILE lpm_compare0.bsf -qip lpm_compare0.qip
-set_global_assignment -name MISC_FILE lpm_compare0.inc -qip lpm_compare0.qip
-set_global_assignment -name IP_TOOL_NAME LPM_COMPARE -qip lpm_compare1.qip
-set_global_assignment -name IP_TOOL_VERSION 9.0 -qip lpm_compare1.qip
-set_global_assignment -name MISC_FILE lpm_compare1.bsf -qip lpm_compare1.qip
-set_global_assignment -name MISC_FILE lpm_compare1.inc -qip lpm_compare1.qip
-set_global_assignment -name IP_TOOL_NAME LPM_FF -qip MegaWizardSymbols/reg.qip
-set_global_assignment -name IP_TOOL_VERSION 9.0 -qip MegaWizardSymbols/reg.qip
-set_global_assignment -name MISC_FILE MegaWizardSymbols/reg.bsf -qip MegaWizardSymbols/reg.qip
-set_global_assignment -name MISC_FILE MegaWizardSymbols/reg.inc -qip MegaWizardSymbols/reg.qip
-set_global_assignment -name IP_TOOL_NAME LPM_FF -qip MegaWizardSymbols/reg_wb.qip
-set_global_assignment -name IP_TOOL_VERSION 9.0 -qip MegaWizardSymbols/reg_wb.qip
-set_global_assignment -name MISC_FILE MegaWizardSymbols/reg_wb.bsf -qip MegaWizardSymbols/reg_wb.qip
-set_global_assignment -name MISC_FILE MegaWizardSymbols/reg_wb.inc -qip MegaWizardSymbols/reg_wb.qip
-set_global_assignment -name IP_TOOL_NAME LPM_FF -qip reg_memory.qip
-set_global_assignment -name IP_TOOL_VERSION 9.0 -qip reg_memory.qip
-set_global_assignment -name MISC_FILE reg_memory.bsf -qip reg_memory.qip
-set_global_assignment -name MISC_FILE reg_memory.inc -qip reg_memory.qip
-set_global_assignment -name IP_TOOL_NAME LPM_MUX -qip pcMux.qip
-set_global_assignment -name IP_TOOL_VERSION 9.0 -qip pcMux.qip
-set_global_assignment -name MISC_FILE pcMux.tdf -qip pcMux.qip
-set_global_assignment -name MISC_FILE pcMux.bsf -qip pcMux.qip
-set_global_assignment -name MISC_FILE pcMux.inc -qip pcMux.qip
-set_global_assignment -name IP_TOOL_NAME "ROM: 1-PORT" -qip MegaWizardSymbols/ROM.qip
-set_global_assignment -name IP_TOOL_VERSION 9.0 -qip MegaWizardSymbols/ROM.qip
-set_global_assignment -name MISC_FILE MegaWizardSymbols/ROM.bsf -qip MegaWizardSymbols/ROM.qip
-set_global_assignment -name MISC_FILE MegaWizardSymbols/ROM_bb.v -qip MegaWizardSymbols/ROM.qip
-set_global_assignment -name MISC_FILE MegaWizardSymbols/ROM.inc -qip MegaWizardSymbols/ROM.qip
 set_global_assignment -name AHDL_FILE reg5.tdf
 set_global_assignment -name VERILOG_FILE control_branch.v
 set_global_assignment -name AHDL_FILE pcMux.tdf

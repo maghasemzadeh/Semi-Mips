@@ -969,18 +969,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "pc_plus4_in/IFID" (rect 112 40 195 52)(font "Arial" ))
-	(pt 112 56)
-	(pt 152 56)
-	(bus)
-)
-(connector
-	(text "id_in/IFID" (rect 120 56 168 68)(font "Arial" ))
-	(pt 112 72)
-	(pt 136 72)
-	(bus)
-)
-(connector
 	(text "zero_out/EXMEM" (rect 1776 -8 1857 4)(font "Arial" ))
 	(pt 1776 8)
 	(pt 1824 8)
@@ -1159,12 +1147,6 @@ applicable agreement for further details.
 (connector
 	(pt 1880 344)
 	(pt 1880 336)
-	(bus)
-)
-(connector
-	(text "pc_in/IFID" (rect 122 80 173 92)(font "Arial" ))
-	(pt 112 88)
-	(pt 160 88)
 	(bus)
 )
 (connector
@@ -1657,6 +1639,24 @@ applicable agreement for further details.
 	(text "result_out/mux[31..0]" (rect 2856 152 2961 164)(font "Arial" ))
 	(pt 2848 168)
 	(pt 2864 168)
+	(bus)
+)
+(connector
+	(text "pc_plus4_in/IFID[31..0]" (rect 112 40 227 52)(font "Arial" ))
+	(pt 112 56)
+	(pt 152 56)
+	(bus)
+)
+(connector
+	(text "id_in/IFID[31..0]" (rect 120 56 200 68)(font "Arial" ))
+	(pt 112 72)
+	(pt 136 72)
+	(bus)
+)
+(connector
+	(text "pc_in/IFID[13..0]" (rect 122 80 205 92)(font "Arial" ))
+	(pt 112 88)
+	(pt 160 88)
 	(bus)
 )
 (text "2" (rect 752 296 759 310)(font "Arial" (font_size 8)))

@@ -1,5 +1,5 @@
 Classic Timing Analyzer report for sarbazi
-Tue Aug 04 21:37:48 2020
+Wed Aug 05 05:48:30 2020
 Quartus II Version 9.0 Build 132 02/25/2009 SJ Web Edition
 
 
@@ -363,7 +363,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 Info: *******************************************************************
 Info: Running Quartus II Classic Timing Analyzer
     Info: Version 9.0 Build 132 02/25/2009 SJ Web Edition
-    Info: Processing started: Tue Aug 04 21:37:46 2020
+    Info: Processing started: Wed Aug 05 05:48:29 2020
 Info: Command: quartus_tan --read_settings_files=off --write_settings_files=off sarbazi -c sarbazi --timing_analysis_only
 Warning: Found pins functioning as undefined clocks and/or memory enables
     Info: Assuming node "clock" is an undefined clock
@@ -408,9 +408,9 @@ Info: th for register "reg:inst1|lpm_ff:lpm_ff_component|dffs[4]" (data pin = "I
         Info: Total cell delay = 1.173 ns ( 51.07 % )
         Info: Total interconnect delay = 1.124 ns ( 48.93 % )
 Info: Quartus II Classic Timing Analyzer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 247 megabytes
-    Info: Processing ended: Tue Aug 04 21:37:49 2020
-    Info: Elapsed time: 00:00:03
-    Info: Total CPU time (on all processors): 00:00:03
+    Info: Peak virtual memory: 199 megabytes
+    Info: Processing ended: Wed Aug 05 05:48:30 2020
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:00
 
 
