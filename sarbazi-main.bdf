@@ -1081,11 +1081,6 @@ applicable agreement for further details.
 	(pt -184 136)
 )
 (connector
-	(pt -112 72)
-	(pt -208 72)
-	(bus)
-)
-(connector
 	(text "aclr" (rect -46 296 -29 308)(font "Arial" ))
 	(pt -48 304)
 	(pt 8 304)
@@ -1106,18 +1101,9 @@ applicable agreement for further details.
 	(pt 1792 280)
 )
 (connector
-	(pt 1832 264)
-	(pt 1832 256)
-	(bus)
-)
-(connector
 	(text "clk" (rect 1354 192 1368 204)(font "Arial" ))
 	(pt 1432 200)
 	(pt 1344 200)
-)
-(connector
-	(pt 1752 248)
-	(pt 1816 248)
 )
 (connector
 	(text "MemEnable_out/EXMEM" (rect 1752 192 1870 204)(font "Arial" ))
@@ -1432,24 +1418,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "alu_result_in/EXMEM[31,,0]" (rect 1416 16 1549 28)(font "Arial" ))
-	(pt 1416 32)
-	(pt 1480 32)
-	(bus)
-)
-(connector
-	(text "read_data2_out/ExecuteLevel[31,,0]" (rect 1416 48 1594 60)(font "Arial" ))
-	(pt 1416 64)
-	(pt 1456 64)
-	(bus)
-)
-(connector
-	(text "add_result_in/EXMEM[31,,0]" (rect 1416 64 1552 76)(font "Arial" ))
-	(pt 1416 80)
-	(pt 1472 80)
-	(bus)
-)
-(connector
 	(text "wb_out/IDEX[2..0]" (rect 1368 200 1456 212)(font "Arial" ))
 	(pt 1432 216)
 	(pt 1408 216)
@@ -1471,12 +1439,6 @@ applicable agreement for further details.
 	(text "alu_result_in/EXMEM[31..0]" (rect 1392 264 1525 276)(font "Arial" ))
 	(pt 1432 280)
 	(pt 1392 280)
-	(bus)
-)
-(connector
-	(text "read_data2_out/ExecuteLeve;[31,,0]" (rect 1352 280 1531 292)(font "Arial" ))
-	(pt 1432 296)
-	(pt 1352 296)
 	(bus)
 )
 (connector
@@ -1528,12 +1490,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "IS_byte_out/EXMEM[31..0]" (rect 1760 248 1892 260)(font "Arial" ))
-	(pt 1752 264)
-	(pt 1832 264)
-	(bus)
-)
-(connector
 	(text "address_out/EXMEM[31..0]" (rect 1760 280 1892 292)(font "Arial" ))
 	(pt 1752 296)
 	(pt 1800 296)
@@ -1555,12 +1511,6 @@ applicable agreement for further details.
 	(text "Control_memory_out/EXMEM[1..0]" (rect 1752 368 1921 380)(font "Arial" ))
 	(pt 1752 376)
 	(pt 1824 376)
-	(bus)
-)
-(connector
-	(text "control_out/MemoryLeve[1..0]l" (rect 2080 -24 2231 -12)(font "Arial" ))
-	(pt 2072 -8)
-	(pt 2136 -8)
 	(bus)
 )
 (connector
@@ -1657,6 +1607,47 @@ applicable agreement for further details.
 	(text "pc_in/IFID[13..0]" (rect 122 80 205 92)(font "Arial" ))
 	(pt 112 88)
 	(pt 160 88)
+	(bus)
+)
+(connector
+	(text "alu_result_in/EXMEM[31..0]" (rect 1416 16 1549 28)(font "Arial" ))
+	(pt 1416 32)
+	(pt 1480 32)
+	(bus)
+)
+(connector
+	(text "read_data2_out/ExecuteLevel[31..0]" (rect 1416 48 1594 60)(font "Arial" ))
+	(pt 1416 64)
+	(pt 1456 64)
+	(bus)
+)
+(connector
+	(text "add_result_in/EXMEM[31..0]" (rect 1416 64 1552 76)(font "Arial" ))
+	(pt 1416 80)
+	(pt 1472 80)
+	(bus)
+)
+(connector
+	(text "control_out/MemoryLeve[1..0]" (rect 2080 -24 2228 -12)(font "Arial" ))
+	(pt 2072 -8)
+	(pt 2136 -8)
+	(bus)
+)
+(connector
+	(text "read_data2_out/ExecuteLeve[31..0]" (rect 1352 280 1527 292)(font "Arial" ))
+	(pt 1432 296)
+	(pt 1352 296)
+	(bus)
+)
+(connector
+	(text "IS_byte_out/EXMEM" (rect 1752 232 1852 244)(font "Arial" ))
+	(pt 1752 248)
+	(pt 1816 248)
+)
+(connector
+	(text "add_result_out/EXMEM[31..0]" (rect 1760 248 1903 260)(font "Arial" ))
+	(pt 1752 264)
+	(pt 1832 264)
 	(bus)
 )
 (text "2" (rect 752 296 759 310)(font "Arial" (font_size 8)))
